@@ -1,0 +1,355 @@
+/***** TAMANHOS 900, 768, 660, 520, 360-PX *******/
+
+/************* RESPONSIVO 900-PX ***********************/
+@media screen and (max-width: 900px){
+                                            /**** SESSAO-4 *********/
+    .sessao-4{
+        padding: 30px 0 1px 0;
+        margin-bottom: 3px;   
+    }                                        
+     
+    .sessao-4 .container{
+        width: 90%;
+        
+    }
+    
+    .form{
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+        width: 60%;
+        
+    }
+        
+    .form-2{
+        margin: 30px auto;
+        width: 60%;
+        padding: 0;
+        float: none;
+    }
+    .form-2 h2{
+        margin-top: 22px;
+        margin-bottom: -20px;    
+    }
+    
+    
+}
+
+
+
+/*** RESPONSIVO 768-PX ***/
+/************************************************************************/
+/*** HEADER ***/
+@media screen and (max-width: 768px) {
+    header{
+        height: auto;
+    }
+    .header-logo{
+        width: 163px;    
+    }
+    header nav li{
+        font-size: 18px;
+        padding: 10px 18px;
+        float: left;
+    }
+    .chamada-1{
+        margin: 50px 2px;
+    }
+    .chamada-1 h2{
+        font-size: 40px;
+    } 
+/******************************* SESSAO-1 ********************************/   
+    .txt-sessao-1{
+        margin: 40px 23px;
+    }
+    .txt-sessao-1 h2{
+        font-size: 36px;
+    }
+    
+    .device-sessao-1{   
+        top: -23px;
+        width: 503px;
+    }
+    /******************************* SESSAO-3 ********************************/
+    
+    .wraper-parte-1{
+        float: right;
+        height: auto;
+        width: 305px;        
+    }
+    .wraper-parte-1 h2{
+        margin-left: 20px;
+    }
+    
+    .parte-1 p{
+        width: 263px;
+    }
+    /**************************** FOOTER ****************************/
+    
+
+    p{
+        margin: 0 auto;
+    }
+
+    .sociais{ 
+        margin-right: 37px;
+        width: 201px;
+        height: 64px;
+    }
+
+    a > img{
+        width: 52px;
+        margin: 5px 5px;
+        border: 2px solid white;
+    }
+
+    .sociais a > h2{
+        font-size: 16px;
+        margin-top: 2px;
+    }
+        
+}
+
+
+
+/*** RESPONSIVO 660-PX ***/
+/************************************************************************/
+/*** HEADER ***/
+@media screen and (max-width: 660px) {
+    .header-logo{
+        width: 163px;
+        height: 44px;    
+    }
+    header nav li{
+        font-size: 15px;
+        padding: 10px 13px;
+        float: left;
+    }
+    .chamada-1{
+        margin: 40px 2px;
+    }
+    .chamada-1 h2{
+        font-size: 30px;
+    }
+    .chamada-1 p{
+        font-size: 15px;
+    }
+/******************************* SESSAO-1 ********************************/
+    .sessao-1{
+        height: 395px;
+        padding-bottom: 33px;
+    }
+    .txt-sessao-1{
+        margin: 40px 23px;
+    }
+    .txt-sessao-1 h2{
+        font-size: 27px;
+    }
+    .txt-sessao-1 p{
+        font-size: 16px;
+    }
+    .txt-sessao-1 li span{
+        font-size: 11px;
+    }
+   
+    .device-sessao-1{   
+        display: none;
+    }   
+/******************************* SESSAO-3 ********************************/
+    
+    .parte-1{
+        display: flex;
+        width: 100%;
+        
+    }    
+    .wraper-parte-1{
+        text-align: center;
+        margin: 0 200px;
+    }
+    
+    .parte-2{
+        width: 100%;
+    }
+    .sobre-autor{
+        margin: 94px 150px;
+    }
+        /**************************** FOOTER ****************************/
+        p{
+            font-size: 14px;
+            margin: 0 auto;
+        }
+} 
+
+
+/*** RESPONSIVO 520-PX ***/
+/************************************************************************/
+/*** HEADER ***/
+    /****** MENU ******/
+@media screen and (max-width: 520px){
+    
+    .txt-sessao-1 li{
+        font-size: 14px;
+    }
+    
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{  
+        display: block;
+    }    
+    /*****************/
+/*********************** SESSÃO-2 ****************************/
+    .sessao-2 .container{
+        padding: 44px 6%;
+    }    
+    .sessao-2 h2{
+        margin-top: -20px;
+        font-size: 38px;
+    }
+    .sessao-2 p{
+        font-size: 15px;
+    }
+    /******************************* SESSAO-3 ********************************/
+    
+    
+    .wraper-parte-1{
+        text-align: center;
+        margin: 0 130px;
+    }
+    
+    .sobre-autor{
+        margin: 94px 95px;
+    }
+                                /**** SESSAO-4 *********/
+    .sessao-4 .container{
+         width: 98%;                                           
+    }
+    .form{
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+        width: 80%;
+        
+    }
+        
+    .form-2{
+        margin: 30px auto;
+        width: 80%;
+        padding: 0;
+        float: none;
+    }
+        /**************************** FOOTER ****************************/
+       
+
+        footer p{
+            font-size: 12px;
+            width: 90%;
+            margin: 10px 5%;
+        }
+    
+       
+    
+    
+}    
+
+  
+
+/*** RESPONSIVO 360-PX ***/
+/************************************************************************/
+/*** HEADER ***/
+@media screen and (max-width: 360px) {
+    header .container{
+        padding: 0 3%;
+    }
+    .header-logo{
+        width: 143px;    
+    }
+
+    .chamada-1{
+        width: 100%;
+    }
+    .chamada-1 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .chamada-1 p{
+        text-align: center;
+    }
+    
+/******************************* SESSAO-1 ********************************/
+    .txt-sessao-1{
+        margin: 40px 8px;
+    }
+    
+    .txt-sessao-1 p{
+        font-size: 13px;
+    }
+    .txt-sessao-1 li{
+        margin: 3px;
+    }
+    .device-sessao-1{
+        display: none;
+    }
+/******************************* SESSAO-2 ********************************/    
+
+    .sessao-2 img{
+        width: 321px;
+        margin-left: -17px;
+    }
+    .sessao-2 h2{
+        font-size: 30px;
+    }
+        /******************************* SESSAO-3 ********************************/
+    
+        
+    .wraper-parte-1{
+        text-align: center;
+        margin: -20px 50px;
+    }
+    .wraper-parte-1 h2{
+        margin: 10px 15px;
+    }
+    
+    
+    .sobre-autor{
+        margin: 94px auto;
+    }
+    /**** SESSAO-4 *********/
+    .sessao-4{
+        text-align: center;
+    }
+    .form{
+        width: 58%;
+        
+    }
+    .form-2{
+        
+        width: 90%;
+       
+    }
+    
+
+
+
+
+/**************************** FOOTER ****************************/
+   
+    .sociais{
+        width: 281px;
+        height: 54px;
+    }
+
+    a > img{
+        height: 39px;
+        width: 46px;
+        margin: 7px 6px;
+    }
+
+    .sociais a > h2{
+        font-size: 16px;
+    }    
+
+} 
+
+
+

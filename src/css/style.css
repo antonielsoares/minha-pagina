@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Darumadrop One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body, html{
+    max-width: 1680px;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear {clear: both;}
+/********************************* AQUI COMEÇA NOSSO SITE ******************************/
+header{
+    display: inline-block;
+    padding: 15px 6%;
+    width: 100%;
+    height: 534px;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagens/capa02.jpg);
+}
+
+.header-logo{
+    margin-left: -22px;
+    width: 187px;
+    height: 55px;
+    float: left;
+    background-image: url(../imagens/logo-one.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+/**** MENU-MOBILE ***/
+.menu-mobile{
+    float: right;
+    cursor: pointer;
+    margin-right: -6px;
+    display: none;
+    width: 43px;
+    height: 32px;
+    background-image: url(../imagens/menu.png);
+    background-size: 100% 100%;
+}
+
+nav.menu-mobile ul{
+    position: absolute;
+    opacity: 0;
+    transition: 0.8s;
+    margin: 38px -290px;
+    width: 100px;
+}
+.menu-mobile:hover ul{
+    opacity: 1;
+    display: block;
+}
+nav.menu-mobile li{
+    border: 1px solid black;
+    float: none;
+    width: 355px;
+    text-align: center;
+    background-color: orange;
+}
+nav.menu-mobile ul li:hover{
+    background-color: rgb(223, 201, 162);
+}
+nav.menu-mobile a{
+    color: black;
+}
+
+
+/****************************/
+.menu-desktop{
+    float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    padding: 0 30px;
+    float: left;
+}
+
+header nav a{
+    color: white;
+}
+
+.chamada-1{
+    margin: 140px 10px;
+    float: right;
+    max-width: 600px;
+}
+
+.chamada-1 h2{
+    font-size: 55px;
+    font-family: normal;
+    color: orange;
+}
+
+.chamada-1 p{
+    margin-top: 17px;
+    color: white;
+}
+
+
+/******************************* SESSAO-1 ********************************/
+.sessao-1{
+    display: inline-block;
+    height: 443px;
+    width: 100%;
+    padding: 0 6%;
+    background: linear-gradient(#472562, white);
+}
+
+.txt-sessao-1{
+    margin: 40px 30px;
+    color: white;
+}
+
+.txt-sessao-1 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    font-size: 40px;
+    margin-top: 70px;
+    
+}
+
+.txt-sessao-1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 7px 0;
+    font-size: 20px;
+}
+
+.txt-sessao-1 ul{
+    list-style-position: inside;
+}
+.txt-sessao-1 li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0;
+}
+.txt-sessao-1 li span{
+    font-size: 14px;
+}
+
+.sessao-btn-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 28px;
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    background-color: orange;
+    width: 151px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    border-radius: 33px;
+}
+
+.device-sessao-1{
+    margin-top: -383px;   
+    display: inline-flex;
+    float: right;
+    width: 600px;
+    height: 626px;
+    background-image: url(../imagens/app.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*********************** SESSÃO-2 ****************************/
+.sessao-2 .container{
+    padding: 79px 6%;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.sessao-2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #472663;
+    font-size: 42px;
+}
+.sessao-2 p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+    color: #472663;
+    font-size: 19px;
+    max-width: 883px;
+    display: inline-block;
+}
+.sessao-2 img{
+    width: 80%;
+    margin-top: 20px;
+}
+/******************************* SESSAO-3 ********************************/
+.sessao-3{
+    width: 100%;
+}
+.parte-1{
+    float: left;
+    height: 257px;
+    width: 50%;
+    padding: 90px 0;
+    background-color: #835fa7;
+}
+.wraper-parte-1{
+    float: right;
+    margin-right: 6%;
+}
+.parte-1 h2{
+    margin: 10px 0;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+.parte-1 p{
+    color: white;
+    font-size: 16px;
+    width: 363px;
+}
+.parte-2{
+    float: right;
+    width: 50%;
+    height: 257px;
+    background-color: rgb(221, 218, 218);
+}
+.sobre-autor{
+    margin-top: 100px;
+}
+.titulo-autor{
+    display: flex;
+}
+.titulo-autor h2{
+    margin: 0 47px;
+    font-size: 28px;
+}
+.txt-autor {
+    width: 213px; 
+}
+.txt-autor p{
+    float: right;
+    font-size: 14px;
+    margin: -14px 0;
+}
+
+.img-autor{
+    margin-top: -13px;
+    margin-left: -35px;
+    width: 64px;
+    height: 64px;
+    border-radius: 33px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imagens/foto.jpg);
+}
+/******************************** SESSAO-4 ********************************/
+
+.sessao-4{
+    color: white;
+    width: 100%;
+    background-color: #472563;
+    padding: 50px 0 20px 0;   
+}
+
+
+.form{
+    padding: 0 50px;
+    float: left;
+    width: 40%;
+    
+}
+.form h2{
+    font-size: 22px;
+}
+.form p{
+    margin: 7px 0;
+    font-size: 16px;
+}
+.form form input[type=text]{
+    display: flex;
+    width: 100%;
+    padding: 4px 10px;
+    margin: 5px auto;
+}
+.form textarea{
+    display: flex;
+    width: 100%;
+    padding: 4px 10px;
+    margin: 5px auto;
+}
+.form .btn-2{
+    cursor: pointer;
+    width: 155px;
+    border: 0;
+    height: 44px;
+    margin-top: 18px;
+    font-size: 22px;
+    background-color: orange;
+}
+.form-2{
+    margin-right: 105px;
+    margin-top: 14px;
+    width: 434px;
+    height: 333px;
+    float: right;
+}
+.form-2 h2{
+    font-size: 22px;
+}
+
+.form-2 .map{
+    margin: 30px 0;
+    width: 100%;
+    height: 264px;
+    background-color: whitesmoke;
+}
+.gmap_iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/**************************** FOOTER ****************************/
+footer{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    height: 144px;
+}
+
+p{
+    margin: 0 auto;
+}
+
+.sociais{
+    display: flex;
+    margin-right: 77px;
+    width: 301px;
+    height: 94px;
+    background-image: url(../imagens/face.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+}
+
+a > img{
+    width: 66px;
+    margin: 10px 10px;
+    border: 2px solid white;
+}
+
+.sociais a > h2{
+    width: 100%;
+    color: white;
+}
