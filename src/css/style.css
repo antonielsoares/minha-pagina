@@ -32,7 +32,7 @@ header{
     min-height: 400px;
     background-size: cover;
     background-position: center;
-    background-image: url(../imagens/capa02.jpg);
+    background-image: url(../imagens/capa02.);
 }
 
 .header-logo{
